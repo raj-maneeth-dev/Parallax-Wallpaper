@@ -17,7 +17,7 @@ import java.io.FileOutputStream
 import java.util.Random
 import kotlin.math.max
 
-/** Persists the layer project (project.json + layers/*.png) and creates layers. */
+/** Persists the layer project (project.json plus the PNG files in the layers folder) and creates layers. */
 object ProjectStore {
     private const val PROJECT_FILE = "project.json"
     private const val BASE_FILE = "background.jpg"
